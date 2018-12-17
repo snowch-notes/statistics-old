@@ -13,6 +13,34 @@ plot(x,y)
 lines(x, y)
 ```
 
+or 
+
+```
+x <- seq(-5, 5, by=0.1)
+y <- dnorm(x,mean=0,sd=1)
+plot(x,y,type="l",lwd=2,col="red")
+```
+
+[Source](http://msenux2.redwoods.edu/MathDept/R/StandardNormal.php)
+
+----
+
+Probability of a random variable following a gaussian distribution to be smaller than a value
+
+```
+pnorm(0, mean = 0, sd = 1)
+1] 0.5
+```
+
+E.g. percentage of values falling between -1.2 and 1.2 standard deviations:
+
+```
+pnorm(1.2) - pnorm(-1.2)
+[1] 0.7698607
+```
+
+See also: http://msenux2.redwoods.edu/MathDept/R/StandardNormal.php
+
 ----
 
 [R] How to Calculate Percentage of Data within certain SD of Mean [Source](https://stat.ethz.ch/pipermail/r-help/2012-February/302515.html)
