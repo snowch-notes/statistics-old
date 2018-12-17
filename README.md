@@ -25,6 +25,17 @@ plot(x,y,type="l",lwd=2,col="red")
 
 ----
 
+Normality
+
+hist(cars$speed)
+
+# ...
+
+qqnorm(cars$speed)
+qqline(cars$speed)
+
+----
+
 Probability of a random variable following a gaussian distribution to be smaller than a value
 
 ```
