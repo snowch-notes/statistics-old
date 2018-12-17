@@ -4,6 +4,17 @@ See [./stats.ipynb](./stats.ipynb)
 
 ----
 
+Normal distribution equation
+
+```
+x <- seq(-5, 5, by=0.1)
+y = (1/sqrt(2*pi))*exp(-x^2/2)
+plot(x,y)
+lines(x, y)
+```
+
+----
+
 [R] How to Calculate Percentage of Data within certain SD of Mean [Source](https://stat.ethz.ch/pipermail/r-help/2012-February/302515.html)
 
 ```
