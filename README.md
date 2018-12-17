@@ -27,12 +27,14 @@ plot(x,y,type="l",lwd=2,col="red")
 
 Normality
 
+```
 hist(cars$speed)
 
 # ...
 
 qqnorm(cars$speed)
 qqline(cars$speed)
+```
 
 ----
 
