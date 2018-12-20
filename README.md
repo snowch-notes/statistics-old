@@ -108,4 +108,8 @@ prod = x.z * y.z
 
 sum(prod) / (length(prod)-1) # [1] 0.8214286
 cor(x, y)                    # [1] 0.8214286
+
+sum((x - mean(x)) * (y - mean(y))) / (length(x) - 1)   # 3.833333
+cov(x, y)                                              # 3.833333
+cov(x, y) / (sd(x)*sd(y))    # [1] 0.8214286
 ```
