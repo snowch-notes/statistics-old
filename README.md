@@ -113,3 +113,38 @@ sum((x - mean(x)) * (y - mean(y))) / (length(x) - 1)   # 3.833333
 cov(x, y)                                              # 3.833333
 cov(x, y) / (sd(x)*sd(y))    # [1] 0.8214286
 ```
+
+----
+
+Correlation intuition
+
+```
+# y = mx + c
+
+c = 3
+m = 2
+
+x = 1:7
+y = 3*x + c + rnorm(x)
+
+plot(x,y)
+abline(lm(y ~ x))
+
+abline(v=mean(x), lty=3)
+text(x=1.25, y=mean(y), label='AVG y')
+
+abline(h=mean(y), lty=3)
+text(x=mean(x), y=7, label='AVG x')
+
+x0 = mean(x)    ; x1 = mean(x) + sd(x)
+y0 = mean(y)    ; y1 = mean(y)
+
+arrows(x0, y0, x1, y1, length=0.1)
+text(x=x0 + 1, y=y0-1, label='SD x')
+
+x0 = mean(x) + sd(x)   ; x1 = mean(x) + sd(x)
+y0 = mean(y)           ; y1 = mean(y) + sd(y)
+
+arrows(x0, y0, x1, y1, length=0.1)
+text(x=x1 + 0.25, y=y0+3, label='SD y', srt=90)
+```
