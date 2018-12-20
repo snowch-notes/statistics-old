@@ -92,6 +92,10 @@ or
 
 > r = cov(x, y)/(sd(x) * sd(y))
 
+where
+
+> cov(x, y) = (average of products xy) - (average of x) * (average of y)
+
 ```
 x = 1:7
 y = c(2,1,4,3,7,5,6)
