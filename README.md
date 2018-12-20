@@ -148,3 +148,5 @@ y0 = mean(y)           ; y1 = mean(y) + sd(y)
 arrows(x0, y0, x1, y1, length=0.1)
 text(x=x1 + 0.25, y=y0+3, label='SD y', srt=90)
 ```
+
+![Correlation Intuition](./Correlation_intuition.png)
