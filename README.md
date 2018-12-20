@@ -81,3 +81,27 @@ print(paste("Percent of data within 4 SD is ",pData(4),"%", sep=""))  # 96%
 print(paste("Percent of data within 5 SD is ",pData(5),"%", sep=""))  # 97%
 print(paste("Percent of data within 6 SD is ",pData(6),"%", sep=""))  # 98%
 ```
+
+----
+
+Correlation
+
+> r = average((x in standard units) * (y in standard units))
+
+or
+
+> r = cov(x, y)/(sd(x) * sd(y))
+
+```
+x = 1:7
+y = c(2,1,4,3,7,5,6)
+
+plot(x,y)
+
+x.z = scale(x)
+y.z = scale(y)
+prod = x.z * y.z
+
+sum(prod) / (length(prod)-1) # [1] 0.8214286
+cor(x, y)                    # [1] 0.8214286
+```
