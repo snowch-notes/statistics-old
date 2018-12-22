@@ -150,3 +150,42 @@ text(x=x1 + 0.25, y=y0+3, label='SD y', srt=90)
 ```
 
 ![Correlation Intuition](./Correlation_intuition.png)
+
+----
+
+Regression based on correlation and standard deviation
+
+```
+require(MASS)
+
+num_values = 50
+reqd_corr = 0.5
+
+out <- mvrnorm(num_values, 
+               mu = c(0,0), 
+               Sigma = matrix(c(1,reqd_corr,reqd_corr,1), ncol = 2),
+               empirical = TRUE)
+
+out = as.data.frame(out)
+
+rownames(out) = 1:50
+colnames(out) = c('x', 'y')
+
+plot(out$x, out$y)
+abline(lm(out[,2] ~ out[,1]))
+
+mean_x = mean(out$x)
+mean_y = mean(out$y)
+
+points.default(mean_x, mean_y, type="p", pch=4, col="red", cex=4)
+
+sd_x1 = sd(out$x)
+sd_y1 = sd(out$y)
+
+x1 = 1
+y1 = reqd_corr * sd_y1
+
+points.default(x1, y1, type="p", pch=4, col="red", cex=4)
+```
+
+![regression_corr_sd](./regression_corr_sd.png)
