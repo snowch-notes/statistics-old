@@ -1,8 +1,8 @@
-### Calculate normal approximation in a strip
+### Calculate normal approximation in a strip/slice
 
 https://stats.stackexchange.com/questions/385454/when-why-to-use-the-normal-approximation-inside-a-vertical-strip
 
-![normal approx in vertical strip](https://i.stack.imgur.com/EImVs.png)
+![normal approx in vertical strip](./normal_approximation_for_slice.png)
 
 ```
 x_avg  = 162
