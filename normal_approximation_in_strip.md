@@ -23,10 +23,10 @@ predicted_score = 75
 ## Calculate new average
 
 ```
-SDs_above_average = (x_score - x_avg)/x_sd
+z = (x_score - x_avg)/x_sd
 # 0.5
 
-new_average = y_avg + (r * SDs_above_average * y_sd)
+new_average = y_avg + (r * z * y_sd)
 # 71
 ```
 
