@@ -1,0 +1,2 @@
+ - http://www.dartmouth.edu/~chance/
+ - http://math.dartmouth.edu/~prob/prob/prob.pdf
