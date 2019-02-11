@@ -8,7 +8,7 @@ timeseries:
  - https://newonlinecourses.science.psu.edu/stat510/node/33/
  - http://zoonek2.free.fr/UNIX/48_R/15.html
 
-algorithms:
+algorithms (seems to overlap with discrete optimisation):
 
  - Princeton
    - Algorithms - https://algs4.cs.princeton.edu/home/
