@@ -19,6 +19,11 @@ algorithms:
  
  Courses:
  
+ - https://www.coursera.org/learn/practical-time-series-analysis
+ - Discrete Optimization
+   - [Basic Modeling for Discrete Optimization](https://www.coursera.org/learn/basic-modeling)
+   - [Advanced Modeling for Discrete Optimization](https://www.coursera.org/learn/advanced-modeling)
+   - [Solving Algorithms for Discrete Optimization](https://www.coursera.org/learn/solving-algorithms-discrete-optimization)
  - https://www.coursera.org/specializations/algorithms (background for decision optimisation)
    - **Pre-requisite book:** [Mathematics for Computer Science](https://www.cs.princeton.edu/courses/archive/fall06/cos341/handouts/mathcs.pdf)
    - [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
