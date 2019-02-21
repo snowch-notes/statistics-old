@@ -5,7 +5,7 @@ intro to probability - http://www.dartmouth.edu/~chance/
 timeseries:
 
  - [Forecasting: Principles and Practice, Rob J Hyndman and George Athanasopoulos](https://otexts.com/fpp2/)
- - https://newonlinecourses.science.psu.edu/stat510/node/33/
+ - [Applied Time Series - Penn State](https://newonlinecourses.science.psu.edu/stat510/)
  - http://zoonek2.free.fr/UNIX/48_R/15.html
 
 algorithms (seems to overlap with discrete optimisation):
