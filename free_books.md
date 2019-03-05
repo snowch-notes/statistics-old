@@ -8,6 +8,7 @@ timeseries:
  - [Applied Time Series - Penn State](https://newonlinecourses.science.psu.edu/stat510/)
  - [Applied Time Series Analysis for Fisheries and Environmental Sciences](https://nwfsc-timeseries.github.io/atsa-labs/)
  - http://zoonek2.free.fr/UNIX/48_R/15.html
+ - https://www.quantstart.com/articles (good articles - not just timeseries)
 
 algorithms (seems to overlap with discrete optimisation):
 
