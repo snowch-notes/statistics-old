@@ -32,3 +32,9 @@ algorithms (seems to overlap with discrete optimisation):
    - [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)
    - [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy)
    - [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
+
+Reinforcement Learning 
+
+   - [UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+   - [Reinforcement Learning](https://classroom.udacity.com/courses/ud600)
+   
