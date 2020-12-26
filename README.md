@@ -11,7 +11,7 @@ Sample skew and kurtosis (Cole Davis, Statistical Testing, 2019):
 - N<300 within 3.29
 - N>300 use plots
 
-See also: https://brownmath.com/stat/shape.htm
+See also: [brownmath](https://brownmath.com/stat/shape.htm) 
 ----
 
 ```
