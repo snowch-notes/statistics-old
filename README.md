@@ -11,6 +11,8 @@ Sample skew and kurtosis (Cole Davis, Statistical Testing, 2019):
 - N<300 within 3.29
 - N>300 use plots
 
+Sample skew and kurtosis [Statistical Analysis in JASP - A Students Guide v1.0.pdf](https://static.jasp-stats.org/Statistical%20Analysis%20in%20JASP%20-%20A%20Students%20Guide%20v1.0.pdf)
+
 - Skewness Z = skewness / Skewness standard error 
 - Kurtosis Z = kurtosis / kurtosis standard error
 
