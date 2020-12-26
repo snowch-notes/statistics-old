@@ -2,7 +2,14 @@ Some of my notes on Statistics
 
 See [./stats.ipynb](./stats.ipynb)
 
+----
+Suitability for parametric testing
 
+Sample skew and kurtosis:
+
+- N<50 within 1.96 (or -1.96)
+- N<300 within 3.29
+- N>300 
 ----
 
 ```
