@@ -3,13 +3,15 @@ Some of my notes on Statistics
 See [./stats.ipynb](./stats.ipynb)
 
 ----
-Suitability for parametric testing
+*Suitability for parametric testing*
 
-Sample skew and kurtosis:
+Sample skew and kurtosis (Cole Davis, Statistical Testing, 2019):
 
 - N<50 within 1.96 (or -1.96)
 - N<300 within 3.29
-- N>300 
+- N>300 use plots
+
+See also: https://brownmath.com/stat/shape.htm
 ----
 
 ```
