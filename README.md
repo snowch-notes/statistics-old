@@ -11,8 +11,8 @@ Sample skew and kurtosis (Cole Davis, Statistical Testing, 2019):
 - N<300 within 3.29
 - N>300 use plots
 
-Skewness Z = skewness / Skewness standard error 
-Kurtosis Z = kurtosis / kurtosis standard error
+- Skewness Z = skewness / Skewness standard error 
+- Kurtosis Z = kurtosis / kurtosis standard error
 
 **Z score significance:** 
 
