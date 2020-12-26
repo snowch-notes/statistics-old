@@ -11,6 +11,17 @@ Sample skew and kurtosis (Cole Davis, Statistical Testing, 2019):
 - N<300 within 3.29
 - N>300 use plots
 
+Skewness Z = skewness / Skewness standard error 
+Kurtosis Z = kurtosis / kurtosis standard error
+
+**Z score significance:** 
+
+- p<0.05 if z >1.96 
+- p<0.01 if z >2.58 
+- p<0.001 if z >3.29 
+
+E.g. The data is significantly skewed if p<0.05
+
 See also:
 
 - [brownmath](https://brownmath.com/stat/shape.htm) 
