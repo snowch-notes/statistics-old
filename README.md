@@ -47,6 +47,7 @@ rnorm(n, mean = 0, sd = 1)
 ### PDF
 
 ![dnorm_and_pnorm](./dnorm_pnorm.PNG)
+![pdf x gt](./pdf_probability_x_gt.PNG)
 
 ### CDF
 
