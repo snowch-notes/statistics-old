@@ -44,7 +44,14 @@ rnorm(n, mean = 0, sd = 1)
 
 [Examples](http://statweb.stanford.edu/~susan/courses/s141/Rlab2sol/)
 ---
+### PDF
+
 ![dnorm_and_pnorm](./dnorm_pnorm.PNG)
+
+### CDF
+
+The cumulative probability plot displays the **cumulative** distribution of a random variable.
+
 ----
 
 Normal distribution equation
