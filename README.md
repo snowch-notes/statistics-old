@@ -53,6 +53,9 @@ rnorm(n, mean = 0, sd = 1)
 
 The cumulative probability plot displays the **cumulative** distribution of a random variable.
 
+### Quantile
+
+![qnorm](./qnorm.PNG)
 ----
 
 Normal distribution equation
