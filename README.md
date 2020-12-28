@@ -5,7 +5,7 @@ See [./stats.ipynb](./stats.ipynb)
 ----
 P-value
 
-> A low p-value can give us a statistical evidence to support rejecting the null hypothesis, but it does not prove that the alternative hypothesis is true. <br>
+> A **low p-value** can give us a statistical evidence to **support rejecting the null hypothesis**, but it does not prove that the alternative hypothesis is true. <br>
 > If you use an alpha level of 0.05, there's a 5% chance you will incorrectly reject the null hypothesis.
 > - [Source](https://blog.minitab.com/blog/understanding-statistics/three-common-p-value-mistakes-youll-never-have-to-make#:~:text=A%20low%20p%2Dvalue%20provides,incorrectly%20reject%20the%20null%20hypothesis)
 
