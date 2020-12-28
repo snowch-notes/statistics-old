@@ -252,3 +252,11 @@ points.default(x1, y1, type="p", pch=4, col="red", cex=4)
 ```
 
 ![regression_corr_sd](./regression_corr_sd.png)
+
+----
+### T-Test
+
+![t-test.png](./t-test.png)
+
+
+- see [also](https://stats.stackexchange.com/questions/502637/p-value-for-shapiro-wilk-is-high-but-data-doesnt-appear-normal)
