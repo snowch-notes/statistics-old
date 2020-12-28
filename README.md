@@ -256,7 +256,7 @@ points.default(x1, y1, type="p", pch=4, col="red", cex=4)
 ----
 ### T-Test
 
-![t-test.png](./t-test.png)
+![t-test.png](./t-test.PNG)
 
 
 - see [also](https://stats.stackexchange.com/questions/502637/p-value-for-shapiro-wilk-is-high-but-data-doesnt-appear-normal)
